@@ -23,7 +23,7 @@ public function one()
             ['id' => 20, 'name' => '门徒20', 'master_id' => 18],
         ];
 
-        //根据父节点，给数组重新排序。
+        //递归,根据父节点，给数组重新排序。
         $array3 = $this->getTree($arr,0,0,true);
 
 
